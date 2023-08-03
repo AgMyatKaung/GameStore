@@ -1,0 +1,102 @@
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    background-color: transparent;
+  }
+  
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  nav ul li a:hover {
+    background-color: #ff0000;
+    color: #fff;
+    text-shadow: 1px 1px #000;
+    padding: 12px 22px;
+    border-radius: 16px;
+    transform: scale(1.1);
+  }
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 95vh;
+    background: #23242a;
+    font-family: 'VT323', monospace;
+
+	background-color: #0C2340; /* Midnight blue background */
+	color: #FFFFFF; /* White text */
+}
+
+.photo-frame {
+	display: inline-block;
+	border: 5px solid #FFFFFF; /* White border */
+	margin: 10px;
+	padding: 5px;
+	width: 250px; /* Set the width of photo frames */
+	height: 250px; /* Set the height of photo frames */
+	border-radius: 10px; /* Add rounded corners */
+	box-shadow: 0px 0px 10px #FFFFFF; /* Add a glowing effect */
+}
+
+.small-photo-frame {
+	width: 150px;
+	height: 150px;
+}
+
+.photo-frame img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 10px; /* Add rounded corners to images */
+}
+
+section {
+	max-width: 800px;
+	margin: 0 auto;
+	text-align: justify;
+	text-align: center;
+}
+
+section p:first-of-type {
+	margin-top: 0;
+}
+
+section p:last-of-type {
+	margin-bottom: 0;
+}
+
+.footer {
+    background: #181716;
+    padding-top: 90px;
+    margin-top: 90px;
+}
